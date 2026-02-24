@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-o-o-o-o-o-o-o-o-o-o-o-o",
-  "description": "神秘念珠串",
-  "version": "0.0.1",
+  "description": "神秘念珠串，好像可以用来插在哪里？",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,13 +9,18 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tsuikyuu/koishi-plugin-o-o-o-o-o-o-o-o-o-o-o-o.git"
+  },
+  "contributors": [
+    "Tsuikyuu <bokusummer233@gmail.com>"
+  ],
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.18.7"
   }
