@@ -8,6 +8,11 @@ export const inject = ['notifier']
 export const reusable = true
 
 export const filter = false
+export const usage = `---
+
+开启插件看看？
+
+---`
 
 export interface Config { }
 
@@ -52,7 +57,7 @@ export async function apply(ctx: Context, _config: Config) {
   const notifier = ctx.notifier.create(buildContent())
 
   try {
-    await ctx.sleep(1*1000)
+    await ctx.sleep(0.7 * 1000)
   } catch {
     return
   }
